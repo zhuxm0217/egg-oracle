@@ -1,5 +1,5 @@
 {
-  "name": "egg-oracle",
+  "name": "egg-oracledb",
   "version": "3.0.0",
   "description": "Oracle database plugin for egg",
   "eggPlugin": {
@@ -14,6 +14,7 @@
   ],
   "types": "index.d.ts",
   "dependencies": {
+    "aes-js": "^3.1.2",
     "oracledb": "^3.0.0"
   },
   "optionalDependencies": {
